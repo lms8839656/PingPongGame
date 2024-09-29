@@ -1,0 +1,48 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 70 -defaultsOSRD
+preplace port RESET -pg 1 -y 290 -defaultsOSRD
+preplace port VSYNC_outp -pg 1 -y 560 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 90 -defaultsOSRD
+preplace port HSYNC_outp -pg 1 -y 580 -defaultsOSRD
+preplace portBus data_B_outp -pg 1 -y 640 -defaultsOSRD
+preplace portBus Right_pad_control -pg 1 -y 620 -defaultsOSRD
+preplace portBus R_side_s -pg 1 -y 660 -defaultsOSRD
+preplace portBus data_G_outp -pg 1 -y 620 -defaultsOSRD
+preplace portBus data_R_outp -pg 1 -y 600 -defaultsOSRD
+preplace portBus L_side_s -pg 1 -y 680 -defaultsOSRD
+preplace portBus Left_pad_control -pg 1 -y 600 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -y 310 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 3 -y 410 -defaultsOSRD
+preplace inst myip_v1_0_0 -pg 1 -lvl 3 -y 620 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -y 350 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y 150 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 3 1 NJ
+preplace netloc myip_v1_0_0_data_B_outp 1 3 1 NJ
+preplace netloc myip_v1_0_0_data_G_outp 1 3 1 NJ
+preplace netloc myip_v1_0_0_HSYNC_outp 1 3 1 NJ
+preplace netloc myip_v1_0_0_VSYNC_outp 1 3 1 NJ
+preplace netloc Right_pad_control_1 1 0 3 NJ 620 NJ 620 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 3 370 10 NJ 10 1110
+preplace netloc ext_reset_in_0_1 1 0 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 NJ
+preplace netloc myip_v1_0_0_R_side_s 1 3 1 NJ
+preplace netloc myip_v1_0_0_data_R_outp 1 3 1 NJ
+preplace netloc Left_pad_control_1 1 0 3 NJ 600 NJ 600 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 670
+preplace netloc myip_v1_0_0_L_side_s 1 3 1 NJ
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 370 490 690
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 N
+preplace netloc Net 1 0 4 20 210 360 210 680 290 1110
+preplace netloc axi_timer_0_interrupt 1 2 2 690 300 1110
+levelinfo -pg 1 0 190 520 900 1130 -top 0 -bot 740
+",
+}
+{
+   da_axi4_cnt: "5",
+   da_board_cnt: "4",
+   da_clkrst_cnt: "2",
+   da_ps7_cnt: "1",
+}

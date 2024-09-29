@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jun 18 17:35:12 2021
+# Process ID: 17804
+# Current directory: G:/ZLab2021/pingpongtestdd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19480 G:\ZLab2021\pingpongtestdd\pingpongtest.xpr
+# Log file: G:/ZLab2021/pingpongtestdd/vivado.log
+# Journal file: G:/ZLab2021/pingpongtestdd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/ZLab2021/pingpongtestdd/pingpongtest.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/ZLab2021/pingpongtestdd/pingpongtest.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {G:/ZLab2021/pingpongtestdd/pingpongtest.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+launch_sdk -workspace G:/ZLab2021/pingpongtestdd/pingpongtest.sdk -hwspec G:/ZLab2021/pingpongtestdd/pingpongtest.sdk/system_wrapper.hdf
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {G:/ZLab2021/pingpongtestdd/pingpongtest.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+launch_sdk -workspace G:/ZLab2021/pingpongtestdd/pingpongtest.sdk -hwspec G:/ZLab2021/pingpongtestdd/pingpongtest.sdk/system_wrapper.hdf

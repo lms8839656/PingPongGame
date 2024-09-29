@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jun 18 17:33:43 2021
+# Process ID: 4328
+# Current directory: G:/ZLab2021/pingpongtest - 복사본
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18152 G:\ZLab2021\pingpongtest - 복사본\pingpongtest.xpr
+# Log file: G:/ZLab2021/pingpongtest - 복사본/vivado.log
+# Journal file: G:/ZLab2021/pingpongtest - 복사본\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/ZLab2021/pingpongtest - 복사본/pingpongtest.xpr}
+INFO: [Project 1-313] Project file moved from 'G:/ZLab2021/pingpongtest' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/ZLab2021/pingpongtest - 복사본/pingpongtest.srcs/sources_1/imports/vhdl_codes'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/ZLab2021/pingpongtest - 복사본/ProjectFiles/myip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/ZLab2021/pingpongtest - 복사본/ProjectFiles/MyVip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/ZLab2021/pingpongtest - 복사본/ProjectFiles/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/ZLab2021/pingpongtest - 복사본/ProjectFiles/My_IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 848.883 ; gain = 124.340
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248783271
+set_property PROGRAM.FILE {G:/ZLab2021/pingpongtest - 복사본/pingpongtest.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 18 17:34:42 2021...
